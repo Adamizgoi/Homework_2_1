@@ -2,11 +2,11 @@ public class Main {
     public static void main(String[] args) {
 
         int cost = 7421; //стоимость авиабилета
-        int one_mile = 20; // кол-во рублей, за которые начисляют 1 милю
-        boolean earn = cost > one_mile; //стоимость билета должна превышать 20р для начисления миль
+        int oneMile = 20; // кол-во рублей, за которые начисляют 1 милю
+        boolean earn = cost > oneMile; //стоимость билета должна превышать 20р для начисления миль
 
         if(earn) {
-            int result = cost / one_mile;
+            int result = cost / oneMile;
             System.out.println("Начислено миль:");
             System.out.println(result);
         } else {
